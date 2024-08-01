@@ -24,7 +24,11 @@ npm install
 node index.js
 ```
 O comando irá criar 2 arquivos, report.html e report.txt. Ao abrir os arquivos, vamos ter os seguintes resultados:
+
 html:
+
 ![resultadoHTML](./images/reporthtml.png)
+
 txt:
+
 ![ResultadoTxt](./images/reprttx.png)
