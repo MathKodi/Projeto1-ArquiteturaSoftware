@@ -14,13 +14,15 @@ O Strategy define uma família de algoritmos, encapsula cada um deles e os torna
   3. Dependency Inversion Principle (DIP): Utilizando o padrão Strategy, a dependência está invertida, onde a classe de alto nível (ReportStrategy) depende de uma abstração (interface de relatório), e não de classes concretas, promovendo maior flexibilidade e reutilização de código.
 
 ##Como testar o código
+
+Clone o repositório
+
+Instale as dependências
 ```bash
-# Clone o repositório
-
-# Instale as dependências
 npm install
-
-# Após a instalação das dependências, use o seguinte comando:
+```
+Após a instalação das dependências, use o seguinte comando:
+```bash
 node index.js
 ```
 O comando irá criar 2 arquivos, report.html e report.txt. Ao abrir os arquivos, vamos ter os seguintes resultados:
