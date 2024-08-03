@@ -38,3 +38,12 @@ txt:
 htmlHeader:
 
 ![resultadoHTMLHeader](./images/reportheader.png)
+
+## Como Executar o Script de Teste
+
+abra o terminal e execute o seguinte comando:
+````bash
+node test/reportStructureTest.js
+````
+Caso a estrutura garanta a consistencia das saídas esperadas após as alterações pedidas pelo professor, irá aparecer uma mensagem no console:
+"Todos os testes passaram!"
