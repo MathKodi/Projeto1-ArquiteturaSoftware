@@ -25,7 +25,7 @@ Após a instalação das dependências, use o seguinte comando:
 ```bash
 node index.js
 ```
-O comando irá criar 2 arquivos, report.html e report.txt. Ao abrir os arquivos, vamos ter os seguintes resultados:
+O comando irá criar 3 arquivos, report.html, report.txt e reportheader. Ao abrir os arquivos, vamos ter os seguintes resultados:
 
 html:
 
@@ -34,3 +34,7 @@ html:
 txt:
 
 ![ResultadoTxt](./images/reprttx.png)
+
+htmlHeader:
+
+![resultadoHTMLHeader](./images/reportheader.png)
