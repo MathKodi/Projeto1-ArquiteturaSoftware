@@ -11,6 +11,11 @@ const htmlStrategy = new ReportStrategy(htmlReport);
 const htmlConteudo = htmlStrategy.criar(dados);
 htmlStrategy.saveToFile('report.html', htmlConteudo);
 
+const htmlHeaderReport = factory.criarReport('HTMLHEADER');
+const htmlHeaderStrategy = new ReportStrategy(htmlHeaderReport);
+const htmlHeaderConteudo = htmlHeaderStrategy.criar(dados);
+htmlHeaderStrategy.saveToFile('reportheader.html', htmlHeaderConteudo);
+
 const txtReport = factory.criarReport('TXT');
 const txtStrategy = new ReportStrategy(txtReport);
 const txtConteudo = txtStrategy.criar(dados);
